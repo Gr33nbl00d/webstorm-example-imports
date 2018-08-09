@@ -1,0 +1,15 @@
+{
+  "name": "modulea",
+  "version": "1.0.0",
+  "description": "Module A",
+  "author": "Gr33nbl00d",
+  "scripts": {
+    "build": "tsc --module commonjs",
+    "start": "node ./dist/lib/src/Starter.js"
+  },
+  "dependencies": {
+    "moduleb": "^1.0.0"
+  },
+  "devDependencies": {
+  }
+}

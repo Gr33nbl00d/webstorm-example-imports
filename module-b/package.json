@@ -1,0 +1,18 @@
+{
+  "name": "moduleb",
+  "version": "1.0.0",
+  "description": "Module B",
+  "author": "Gr33nbl00d",
+  "main": "dist/lib/src/index.js",
+  "module": "dist/lib/src/index.js",
+  "typings": "dist/types/src/index.d.ts",
+  "scripts": {    
+    "build": "tsc --module commonjs",
+    "start": "node ./dist/lib/src/Starter.js"  
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {   
+  }
+}
